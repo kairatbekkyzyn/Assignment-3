@@ -1,0 +1,115 @@
+body, h1, h2, p, table, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: rgb(250, 241, 230);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.about-developer p {
+    font-size: 16px;
+}
+
+.contacts table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.contacts td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.contacts a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contacts a:hover {
+    text-decoration: underline;
+}
+
+.feedback-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.feedback-form input, .feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.feedback-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.feedback-form button:hover {
+    background-color: #0056b3;
+}
+
+.nav-bar {
+    background-color: #f3ecec;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-button {
+    color: black;
+    background-color: #d9cbcb;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.nav-button:hover {
+    background-color: #777;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
